@@ -26,7 +26,7 @@
 		<ul class="tp-hd-rgt wow fadeInRight animated" data-wow-delay=".5s"> 
 						
 			<li class="sig"><a href="#" data-toggle="modal" data-target="#myModal" >Sign Up</a></li> 
-			<li class="sigi"><a href="#" data-toggle="modal" data-target="#myModal4" >/ Sign In</a></li>
+			<li class="sigi"><a href="#" data-toggle="modal" data-target="#myModal4" >       Sign In</a></li>
         </ul>
 		<div class="clearfix"></div>
 	</div> 
@@ -39,12 +39,10 @@
 		<div class="logo wow fadeInDown animated" data-wow-delay=".5s">
 			<a href="index.php">Tour <span>Management System</span></a>	
 		</div>
-	
-		<div class="lock fadeInDown animated" data-wow-delay=".5s"> 
-			<li><i class="fa fa-lock"></i></li>
-            <li><div class="securetxt">SAFE &amp; SECURE </div></li>
-			<div class="clearfix"></div>
-		</div>
+		<div class="topnav"> 
+		 <input type="text" placeholder="Search.."> 
+	</div>
+
 		<div class="clearfix"></div>
 	</div>
 </div>
