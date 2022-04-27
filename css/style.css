@@ -555,19 +555,18 @@ li.fare {
     font-size: 20px;
     color: #34ad00;
 }
-a.view {
-    padding: 6px 18px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #34ad00;
-    border: 0;
-    font-size: 13px;
-    border-radius: 2px;
-    -webkit-transition: all .2s;
-    -moz-transition: all .2s;
-    transition: all .2s;
-    margin-top: 20px;
-    display: inline-block;
+a.view{
+padding: 6px 18px;
+font-weight: 700;
+color: #ffffff  ;
+background-color: #FF0000; 
+border: 0;
+font-size: 13px;
+border-radius: 2px;
+-webkit-transition: all .2s;
+-moz-transition: all .2s;
+transition: all .2s;
+margin-top: 20px;
 }
 i.fa.fa-clock-o {
     font-size: 1.5em;
@@ -1197,7 +1196,7 @@ span.glyphicon.glyphicon-eye-open, span.glyphicon.glyphicon-thumbs-up {
 .rom-btm h5 {
     font-size: 1.2em;
     font-weight: 700;
-    color: #999;
+    color: #000000;
 }
 /*-- /rooms --*/
 
