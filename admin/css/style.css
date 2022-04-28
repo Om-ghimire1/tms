@@ -11,7 +11,7 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-	background:#ffaa00;
+	background:#FFFFFF;
 }
 a:focus, a:active, a:hover ,a.dropdown-toggle{
     outline: none;
@@ -244,12 +244,12 @@ background-color:#00C6D7!important;
     width: 100%;
     padding: 15px 14px 15px;
     box-sizing: border-box;
-    background: #1b93e1;
+    background: #0099ff;
     text-align: center;
 }
 .sidebar-icon {
     margin-top: -2px;
-    border: 1px solid #1b93e1;
+    border: 1px solid #d5dbdf;
     text-align: right;
     line-height: 1;
     font-size: 19px;
@@ -299,7 +299,7 @@ li#menu-academico{
 /*--header --*/
 .header-main {
     padding:1em;
-	background:#fff;
+	background:#ffffff;
 	 box-shadow: 0 1px 1px rgba(0,0,0,.05);
     -o-box-shadow: 0 1px 1px rgba(0,0,0,.05);
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
@@ -308,7 +308,7 @@ li#menu-academico{
 .w3layouts-right {
     float: left;
     width: 24.25%;
-    background: #e74c3c;
+    background: #000000;
     text-align: center;
     padding: 1.3em 1em 0.1em;
     margin: 0 1%;
@@ -318,25 +318,25 @@ li#menu-academico{
     font-size: 35px;
 }
 .logo-w3-agile h1 a {
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     display: inline-block;
 }
 .w3layouts-left {
     float: left;
     width: 24.25%;
-    background: #ff9501;
+    background: #ffffff;
     padding: 1em;
 }
 .profile_details {
     float: left;
     width: 24.25%;
-    background: #1b93e1;
+    background: #FFFFFF;
     text-align: center;
     padding: 0.3em 1em;
 }
 .logo-w3-agile {
-    background: #a2d200;
+    background: #ffffff;
     float: left;
     width: 65.25%;
     text-align: center;
@@ -347,7 +347,7 @@ li#menu-academico{
     background: none !important;
 }
 span.logo-clr{
-	color:#fdbb30;
+	color:#FFFFFF;
 }
 .page-container.sidebar-collapsed-back #menu span.fa.fa-angle-right{
 	position: absolute;
@@ -893,22 +893,22 @@ ul.dropdown-menu.drp-mnu li {
 /*--header --*/
 /*---four-grids-----*/ 
 .four-agileits {
-    background: #ff4a43;
+    background: #000000;
     text-align: center;
     padding: 2em 0;
 }
 .four-agileinfo {
-    background: #22beef;
+    background: #000000;
     padding: 2em 0;
     text-align: center;
 }
 .four-w3ls {
-    background: #a2d200;
+    background: #000000;
     padding: 2em 0;
     text-align: center;
 }
 .four-wthree {
-    background: #8e44ad;
+    background: #000000;
     padding: 2em 0;
     text-align: center;
 }
