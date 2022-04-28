@@ -30,26 +30,16 @@ include('includes/config.php');
 </head>
 <body>
 <?php include('includes/header.php');?>
-<div class="banner">
-	<div class="container">
+ <div class="banner">
+	<!-- <div class="container">
 		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;"> Tour Management System</h1>
-	</div>
+	</div> -->
 </div>
-
-
-
-
-
-
 
 <!---holiday---->
 <div class="container">
 	<div class="holiday">
-	
 
-
-
-	
 	<h3> Tour Packages</h3>
 
 					
@@ -62,6 +52,7 @@ if($query->rowCount() > 0)
 {
 foreach($results as $result)
 {	?>
+
 			<div class="rom-btm">
 				<div class="col-md-3 room-left wow fadeInLeft animated" data-wow-delay=".5s">
 					<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>" class="img-responsive" alt="">

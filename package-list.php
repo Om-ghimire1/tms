@@ -31,9 +31,9 @@ include('includes/config.php');
 <?php include('includes/header.php');?>
 <!--- banner ---->
 <div class="banner-3">
-	<div class="container">
+	<!-- <div class="container">
 		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;"> Tour Packages</h1>
-	</div>
+	</div> -->
 </div>
 <!--- /banner ---->
 <!--- rooms ---->
