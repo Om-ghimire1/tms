@@ -1,9 +1,4 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
+
 html, body{
 	font-family: 'Roboto', sans-serif;
     font-size: 100%;
@@ -16,7 +11,7 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-	background:#FFA800;
+	background:#ffaa00;
 }
 a:focus, a:active, a:hover ,a.dropdown-toggle{
     outline: none;
@@ -35,7 +30,7 @@ h1, h2, h3, h4, h5 {
     	font-family: 'Montserrat', sans-serif;
 }
 a {
-  color: #008DE7;
+  color: #ffffff;
   font-weight:400;
 }
 a:hover { transition: all 200ms ease-in-out; }
@@ -56,7 +51,7 @@ a:hover { transition: all 200ms ease-in-out; }
     width: 87%;
 }
 a.sidebar-icon:hover{
-	color:#1b93e1;
+	color:#000000;
 }
 .page-container.sidebar-collapsed {
   transition: all 100ms linear;
@@ -383,7 +378,7 @@ span.logo-clr{
     display: inline-block;
 }
 .w3-search-box input[type="submit"] {
-    background: url(../images/search.png)no-repeat;
+    background: url(../images/search.png) no-repeat;
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -613,7 +608,7 @@ li.dropdown.head-dpdn i {
     font-size: 10px;
     font-weight: bold;
     color: #FFF;
-    background: #FC8213;
+    /* background: #FC8213; */
     line-height: 15px;
     width: 20px;
     height: 20px;
@@ -4537,7 +4532,7 @@ label.control-label {
 }
 .footer a:hover{
 	text-decoration:underline;
-	color:#00337f;
+	 /* color:#00337f;  */
 }
 .wthree {
     background: #000;
@@ -4715,7 +4710,8 @@ ul.bt-list {
 }
 /*---signin-----*/
 .main-wthree{
-		background:#03a9f4;
+        background-image: url('1.jpg');
+		/* background:#FFFFFF; */
 		min-height:794px;
 }
 span.prfil-img img {
@@ -4734,7 +4730,7 @@ span.prfil-img img {
 .main-wthree form span {
     width: 29%;
     float: left;
-    background: #FC8213;
+    background: #FC8213; 
     padding: 10.2px 10px;
     position: relative;
     color: #000000;
