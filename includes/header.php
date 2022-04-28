@@ -67,9 +67,9 @@
 						<ul class="nav navbar-nav">
 							<li><a href="index.php">Home</a></li>
 								<li><a href="package-list.php">Tours Package</a></li>
-								<li><a href="Reviews.php">Review</a></li>
-								<!-- <li><a href=""></a></li>
-								<li><a href=""> </a></li> -->
+								<li><a href="resturant.html">Resturant</a></li>
+								 <!-- <li><a href="../resturant.html"></a>Resturant</li> -->
+								<li><a href="hotels.php">hotels </a></li> 
 								<li><a href="coindex.php">Contact Us</a></li>
 								<?php if($_SESSION['login'])
 {?>
