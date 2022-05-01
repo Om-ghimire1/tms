@@ -30,28 +30,31 @@ include('includes/config.php');
 </head>
 <body>
 <?php include('includes/header.php');?>
- <div class="banner">
-	<!-- <div class="container">
-		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;"> Tour Management System</h1>
-	</div> -->
+ 	
+<div class="banner">
+	<?php include('slider.php');?> 
+
 </div>
+
+
 
 <!---holiday---->
 <div class="container">
-	<div class="holiday">
+<div class="holiday">
+  <div class="centered">
 
 	<h3> Tour Packages</h3>
 
 					
-<?php $sql = "SELECT * from tbltourpackages order by rand() limit 4";
-$query = $dbh->prepare($sql);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
-if($query->rowCount() > 0)
-{
-foreach($results as $result)
-{	?>
+ <?php $sql = "SELECT * from tbltourpackages order by rand() limit 4";
+ $query = $dbh->prepare($sql);
+ $query->execute();
+ $results=$query->fetchAll(PDO::FETCH_OBJ);
+ $cnt=1;
+ if($query->rowCount() > 0)
+ {
+ foreach($results as $result)
+ {	?>
 
 			<div class="rom-btm">
 				<div class="col-md-3 room-left wow fadeInLeft animated" data-wow-delay=".5s">
@@ -71,12 +74,18 @@ foreach($results as $result)
 			</div>
 
 <?php }} ?>
-			
+
 		
 <div><a href="package-list.php" class="view">View More Packages</a></div>
 </div>
 			<div class="clearfix"></div>
 	</div>
+<div class="hotels">
+  <div class="centered">
+		<h3> Hotels </h3>
+		<?php include('includes/hotel.php');?>
+
+ </div>
 <?php include('includes/footer.php');?>
 <!-- signup -->
 <?php include('includes/signup.php');?>			

@@ -14,16 +14,7 @@ include('includes/config.php');
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 	
-  <!-- Facebook and Twitter integration
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" /> -->
+  
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	
@@ -74,16 +65,16 @@ include('includes/config.php');
 					<div class="col-md-9">
 						<div class="row">
 							<div class="wrap-division">
-								<div class="col-md-6 col-sm-6 animate-box">
+							<div class="col-md-6 col-sm-6 animate-box">
 									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-1.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
+											<p class="price"><span>RS 12000</span><small> /night</small></p>
 										</a>
 										<div class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+											<h3><a href="hotel-room.html">The Dwarika hotel</a></h3>
+											<span class="place">Battisputali Rd, Kathmandu</span>
+											<p>Dwarika's Hotel's elegant courtyards, buildings, and rooms aim to revive the stunning Newari architecture, capturing the beauty and spirit of ancient Kathmandu</p>
 										</div>
 									</div>
 								</div>
@@ -91,102 +82,100 @@ include('includes/config.php');
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="hotel-entry">
 										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+											<p class="price"><span>RS 12000</span><small> /night</small></p>
 										</a>
 										<div class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+											<h3><a href="hotel-room.html">The Dwarika hotel</a></h3>
+											<span class="place">Battisputali Rd, Kathmandu</span>
+											<p>Dwarika's Hotel's elegant courtyards, buildings, and rooms aim to revive the stunning Newari architecture, capturing the beauty and spirit of ancient Kathmandu</p>
 										</div>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-3.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
+											<p class="price"><span>RS 12000</span><small> /night</small></p>
 										</a>
 										<div class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+											<h3><a href="hotel-room.html">The Dwarika hotel</a></h3>
+											<span class="place">Battisputali Rd, Kathmandu</span>
+											<p>Dwarika's Hotel's elegant courtyards, buildings, and rooms aim to revive the stunning Newari architecture, capturing the beauty and spirit of ancient Kathmandu</p>
 										</div>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-4.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
+											<p class="price"><span>RS 12000</span><small> /night</small></p>
 										</a>
 										<div class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+											<h3><a href="hotel-room.html">The Dwarika hotel</a></h3>
+											<span class="place">Battisputali Rd, Kathmandu</span>
+											<p>Dwarika's Hotel's elegant courtyards, buildings, and rooms aim to revive the stunning Newari architecture, capturing the beauty and spirit of ancient Kathmandu</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 animate-box">
+									<div class="hotel-entry">
+										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
+											<p class="price"><span>RS 12000</span><small> /night</small></p>
+										</a>
+										<div class="desc">
+											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
+											<h3><a href="hotel-room.html">The Dwarika hotel</a></h3>
+											<span class="place">Battisputali Rd, Kathmandu</span>
+											<p>Dwarika's Hotel's elegant courtyards, buildings, and rooms aim to revive the stunning Newari architecture, capturing the beauty and spirit of ancient Kathmandu</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-6 animate-box">
+									<div class="hotel-entry">
+										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
+											<p class="price"><span>RS 12000</span><small> /night</small></p>
+										</a>
+										<div class="desc">
+											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
+											<h3><a href="hotel-room.html">The Dwarika hotel</a></h3>
+											<span class="place">Battisputali Rd, Kathmandu</span>
+											<p>Dwarika's Hotel's elegant courtyards, buildings, and rooms aim to revive the stunning Newari architecture, capturing the beauty and spirit of ancient Kathmandu</p>
 										</div>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-5.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
+											<p class="price"><span>RS 12000</span><small> /night</small></p>
 										</a>
 										<div class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+											<h3><a href="hotel-room.html">The Dwarika hotel</a></h3>
+											<span class="place">Battisputali Rd, Kathmandu</span>
+											<p>Dwarika's Hotel's elegant courtyards, buildings, and rooms aim to revive the stunning Newari architecture, capturing the beauty and spirit of ancient Kathmandu</p>
 										</div>
 									</div>
 								</div>
 
 								<div class="col-md-6 col-sm-6 animate-box">
 									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-6.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
+										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-2.jpg);">
+											<p class="price"><span>RS 12000</span><small> /night</small></p>
 										</a>
 										<div class="desc">
 											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-7.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
-										</a>
-										<div class="desc">
-											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-md-6 col-sm-6 animate-box">
-									<div class="hotel-entry">
-										<a href="hotel-room.html" class="hotel-img" style="background-image: url(images/hotel-8.jpg);">
-											<p class="price"><span>$120</span><small> /night</small></p>
-										</a>
-										<div class="desc">
-											<p class="star"><span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span> 545 Reviews</p>
-											<h3><a href="hotel-room.html">Hotel Edison</a></h3>
-											<span class="place">New York, USA</span>
-											<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+											<h3><a href="hotel-room.html">The Dwarika hotel</a></h3>
+											<span class="place">Battisputali Rd, Kathmandu</span>
+											<p>Dwarika's Hotel's elegant courtyards, buildings, and rooms aim to revive the stunning Newari architecture, capturing the beauty and spirit of ancient Kathmandu</p>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="row">
 							<div class="col-md-12 text-center">
 								<ul class="pagination">
@@ -374,31 +363,31 @@ include('includes/config.php');
 										   <div class="form-check">
 												<input type="checkbox" class="form-check-input" id="exampleCheck1">
 												<label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Greece</h4>
+													<h4 class="place">Kathmandu</h4>
 												</label>
 										   </div>
 										   <div class="form-check">
 										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
 										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Italy</h4>
+													<h4 class="place">Pokhara</h4>
 												</label>
 										   </div>
 										   <div class="form-check">
 										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
 										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Spain</h4>
+													<h4 class="place">Chitwan</h4>
 												</label>
 										   </div>
 										   <div class="form-check">
 										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
 										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Germany</h4>
+													<h4 class="place">Illam</h4>
 												</label>
 										   </div>
 										   <div class="form-check">
 										      <input type="checkbox" class="form-check-input" id="exampleCheck1">
 										      <label class="form-check-label" for="exampleCheck1">
-													<h4 class="place">Japan</h4>
+													<h4 class="place">Mustang</h4>
 												</label>
 										   </div>
 										</form>
