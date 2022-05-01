@@ -40,7 +40,9 @@
 			<a href="index.php">Tour <span>Management System</span></a>	
 		</div>
 		<div class="topnav"> 
-		 <input type="text" placeholder="Search.."> 
+		<script async src="https://cse.google.com/cse.js?cx=44a743f6fc39a4322">
+</script>
+<div class="gcse-search"></div>
 	</div>
 
 		<div class="clearfix"></div>
@@ -69,7 +71,7 @@
 								<li><a href="package-list.php">Tours Package</a></li>
 								<li><a href="resturant.html">Resturant</a></li>
 								 <!-- <li><a href="../resturant.html"></a>Resturant</li> -->
-								<li><a href="hotels.php">hotels </a></li> 
+								<li><a href="hotels.php">Hotels </a></li> 
 								<li><a href="coindex.php">Contact Us</a></li>
 								<?php if($_SESSION['login'])
 {?>
