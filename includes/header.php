@@ -52,17 +52,17 @@
 <!--- footer-btm ---->
 <div class="footer-btm wow fadeInLeft animated" data-wow-delay=".5s">
 	<div class="container">
-	<div class="navigation">
+ <div class="navigation">
 			<nav class="navbar navbar-default">
 				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
+				<!-- <div class="navbar-header">
 				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				  </button>
-				</div>
+				</div>  --> 
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 					<nav class="cl-effect-1">
@@ -71,7 +71,7 @@
 								<li><a href="package-list.php">Tours Package</a></li>
 								<li><a href="resturant.html">Resturant</a></li>
 								 <!-- <li><a href="../resturant.html"></a>Resturant</li> -->
-								<li><a href="hotels.php">Hotels </a></li> 
+								<li><a href="hotel-index.php">Hotels </a></li> 
 								<li><a href="coindex.php">Contact Us</a></li>
 								<?php if($_SESSION['login'])
 {?>
