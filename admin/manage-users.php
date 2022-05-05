@@ -28,6 +28,7 @@ else{
 <!-- tables -->
 <link rel="stylesheet" type="text/css" href="css/table-style.css" />
 <link rel="stylesheet" type="text/css" href="css/basictable.css" />
+<link href="css/sb-admin-2.min.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery.basictable.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
@@ -147,7 +148,7 @@ foreach($results as $result)
 </div>
   <!--//content-inner-->
 		<!--/sidebar-menu-->
-						<?php include('includes/sidebarmenu.php');?>
+						
 							  <div class="clearfix"></div>		
 							</div>
 							<script>
