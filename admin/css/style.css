@@ -11,7 +11,7 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
-	background:#FFFFFF;
+	background:#ffffff;
 }
 a:focus, a:active, a:hover ,a.dropdown-toggle{
     outline: none;
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5 {
     	font-family: 'Montserrat', sans-serif;
 }
 a {
-  color: #ffffff;
+  color: #000000;
   font-weight:400;
 }
 a:hover { transition: all 200ms ease-in-out; }
@@ -60,11 +60,11 @@ a.sidebar-icon:hover{
 li.breadcrumb-item i.fa.fa-angle-right {
     font-size: 25px;
     padding: 0 8px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 	vertical-align: middle;
 }
 .breadcrumb > li {
-    color: #ffffff ! important;
+    color: #000000 ! important;
     font-size: 16px ! important;
     vertical-align: middle ! important;
 }
@@ -1351,7 +1351,7 @@ td span.work{
 	color:#fff;
 }
 td span.mar{
-	background: #e74c3c;
+	background: #1cc88a;
 	color:#fff;
 }
 .nav > li > a {
@@ -5068,7 +5068,7 @@ ul.bs-glyphicons-list {
 .breadcrumb {
     padding: 10px 15px ! important;
     margin: 20px 0 ! important;
-    background-color: #000000 ! important;
+    background-color: #ffffff ! important;
     border-radius: 0 ! important;
 }
 ul.nofitications-dropdown {
