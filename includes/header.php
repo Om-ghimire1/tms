@@ -69,7 +69,7 @@
 						<ul class="nav navbar-nav">
 							<li><a href="index.php">Home</a></li>
 								<li><a href="package-list.php">Tours Package</a></li>
-								<li><a href="resturant.html">Resturant</a></li>
+								<li><a href="Restaurant.php">Resturant</a></li>
 								 <!-- <li><a href="../resturant.html"></a>Resturant</li> -->
 								<li><a href="hotel-index.php">Hotels </a></li> 
 								<li><a href="coindex.php">Contact Us</a></li>
