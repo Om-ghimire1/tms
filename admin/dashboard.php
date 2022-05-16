@@ -406,16 +406,16 @@ else{
                                 <div class="col-lg-6 mb-4">
                                     <div class="card bg-primary text-white shadow">
                                         <div class="card-body">
-                                            Primary
-                                            <div class="text-white-50 small">#4e73df</div>
+                                        <a href="manage-packages.php" >Manage Package </a>  </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 mb-4">
                                     <div class="card bg-success text-white shadow">
                                         <div class="card-body">
-                                            Success
-                                            <div class="text-white-50 small">#1cc88a</div>
+                                        <a href="create-package.php" >Create Package </a>  </div>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -461,10 +461,22 @@ else{
                                                 ?>			<h4> <?php echo htmlentities($cnt);?> </h4>
                                         </span>
                                         <span class="mr-2">
-                                            <i class="fas fa-circle text-success"></i> Social 
+                                            <i class="fas fa-circle text-success"></i> Bookings
+                                            <?php $sql = "SELECT bookingid from tblbooking";
+                                                $query = $dbh -> prepare($sql);
+                                                $query->execute();
+                                                $results=$query->fetchAll(PDO::FETCH_OBJ);
+                                                $cnt=$query->rowCount();
+                                                ?>			<h4> <?php echo htmlentities($cnt);?> </h4>
                                         </span>
                                         <span class="mr-2">
-                                            <i class="fas fa-circle text-info"></i> Referral
+                                            <i class="fas fa-circle text-info"></i> Enquries
+                                            <?php $sql = "SELECT id from tblenquiry";
+                                                $query = $dbh -> prepare($sql);
+                                                $query->execute();
+                                                $results=$query->fetchAll(PDO::FETCH_OBJ);
+                                                $cnt=$query->rowCount();
+                                                ?>			<h4> <?php echo htmlentities($cnt);?> </h4>
                                         </span>
                                     </div>
                                 </div>
@@ -655,9 +667,7 @@ else{
     <!-- Page level custom scripts -->
     <script src="js/demo/chart-area-demo.js"></script>
     <script src="js/demo/chart-pie-demo.js"></script>
-    <?php
-    include("includes/footer.php")
-    ?>
+    
 
 </body>
 

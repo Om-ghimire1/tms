@@ -199,7 +199,7 @@ foreach($results as $result)
 </div>
   <!--//content-inner-->
 		<!--/sidebar-menu-->
-						<?php include('includes/sidebarmenu.php');?>
+						
 							  <div class="clearfix"></div>		
 							</div>
 							<script>
